@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .navbar {
+            width: 50%;
+            background-color: #555;
+            overflow: auto;
+        }
+
+        .navbar a {
+            float: left;
+            padding: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .navbar a:hover {
+            background-color: #000;
+        }
+
+
+        @media screen and (max-width: 500px) {
+            .navbar a {
+                float: none;
+                display: block;
+            }
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            background-color: white;
+            padding: 50px;
+        }
+
+        .grid-container>div {
+
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+
+        .button {
+            padding: 20px 30px;
+            font-size: 22px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            background-color: #04AA6D;
+            border: none;
+            border-radius: 15px;
+            width: 250px;
+            box-shadow: 0 9px #999;
+        }
+
+        .button:hover {
+            background-color: #3e8e41
+        }
+
+        .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+        .header {
+            padding: 8px;
+            text-align: center;
+            background: #1abc9c;
+            color: black;
+
+        }
+
+        .header h1 {
+            font-size: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a class="active" href="#"><i class="home"></i> Home</a>
+        <a href="#"><i class=” fa fa-fw fa- search"></i> Search</a>
+        <a href="#"><i class="&#105 -about"></i> about</a>
+        <a href="#"><i class="&#105 -support"></i> support</a> <br><br>
+    </div>
+
+
+    <div class="grid-container">
+        <div class="header">
+            <h1>PHP</h1>
+            <p>A web Server Programming language</p>
+            <center>
+                <button class="button">PHP</button>
+            </center>
+        </div>
+
+
+        <div class="header">
+            <h2>CSS</h2>
+            <p>A CSS faster & better web pages</p>
+            <center>
+                <button class="button">CSS</button>
+            </center>
+        </div>
+        <div class="header">
+            <h3>JAVA</h3>
+            <p>A Programming language</p>
+            <center>
+                <button class="button">JAVA</button>
+            </center>
+        </div>
+        <div class="header">
+            <h4>C++</h4>
+            <p>A Programming language</p>
+            <center>
+                <button class="button">C++</button>
+            </center>
+        </div>
+
+        <div class="header">
+            <h5>PYTHON</h5>
+            <p>A Programming language</p>
+            <center>
+                <button class="button">PYTHON</button>
+            </center>
+        </div>
+        <div class="header">
+            <h2>HTML</h2>
+            <p>A Programming language</p>
+            <center>
+                <button class="button">HTML </button>
+            </center>
+        </div>
+    </div>
+</body>
+
+</html>

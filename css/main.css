@@ -1,0 +1,123 @@
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+body {
+    /* display: grid; */
+    background-image: url('../images/bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 10% 70% 10% 10% 10%;
+    padding: 2%;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#logo {
+    float: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    border: 2px solid #FFFFFF;
+    padding: 6px;
+    font-size: large;
+    text-align: center;
+    transition-property: color, background;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: 0.2s;
+}
+
+#logo:hover {
+    background: #FFFFFF;
+    color: #172aba;
+}
+
+#about {
+    margin-left: 65%;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+    justify-self: end;
+    padding: 6px;
+}
+
+#about:hover {
+    background: #FFFFFF;
+    border-radius: 5%;
+    color: #172aba;
+    padding: 6px;
+}
+
+#signup {
+    margin-left: 4%;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+    justify-self: end;
+    padding: 6px;
+}
+
+#signup:hover {
+    background: #FFFFFF;
+    border-radius: 5%;
+    color: #172aba;
+    padding: 6px;
+}
+
+#signin {
+    float: right;
+    text-decoration: none;
+    color: #172aba;
+    font-family: 'Inter', sans-serif;
+    background: #FFFFFF;
+    border-radius: 5%;
+    padding: 6px;
+    justify-self: end;
+    font-size: large;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 8%;
+    font-size: xx-large;
+    margin-left: 2%;
+    color: #FFFFFF;
+}
+
+.description {
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 2%;
+    color: #FFFFFF;
+    width: 45%;
+    font-size: x-large;
+}
+
+
+
+footer {
+    padding: 10px;
+    background: #FFFFFF;
+    margin-top: 23%;
+
+}
+
+.bottom {
+    display: inline;
+    padding-left: 4%;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}

@@ -1,0 +1,44 @@
+nav{
+    overflow: hidden;
+    top:0%;
+    margin-top: 0%;
+    left:0%;
+    position:fixed;
+    padding: 2%;
+    width: 97%;
+    height:5%;
+    border-bottom: 5px solid black;
+}
+
+nav,h2,ul,li{
+    
+    background-color: rgb(20, 197, 197);
+}
+h2{
+    display:inline-flex;
+    font-size: 200%;
+  }
+  ul{
+    float: right;
+}
+ul li{
+    position: relative;
+   margin-right: 20pt;
+    display: inline-flex;
+    list-style: none;
+ }
+ ul li a{
+    background-color: rgb(20, 197, 197);
+     text-decoration: none;
+     font-size: 175%;
+     color: black;
+     padding: 5% 0%;
+     border-radius: 25px;
+ }
+ ol li,ol{
+     background-color: white;
+ }
+ul li a:hover{
+     background-color:rgb(11, 72, 3);
+     color: white;
+ }

@@ -1,0 +1,65 @@
+body {
+    background: #dff2fb;
+}
+
+.sign-up-container,.login-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: ". content ."
+
+}
+
+.sign,.login {
+    grid-area: content;
+    justify-self: center;
+    background: #FFFFFF;
+    padding: 5% 20% 15% 10%;
+    border-radius: 5%;
+    margin-top: 5%;
+
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 15%;
+    width: 100%;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+
+#signup-btn,#login-btn {
+    width:130%;
+    height:10%;
+    margin: 5px 0px 5px 0px;
+    
+    font-family: 'Poppins', sans-serif;
+    background: #08a6ef;
+}
+
+#cancelbtn {
+    width:130%;
+    height:10%;
+    margin: 5px 0px 5px 0px;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    background: #391e2b;
+}
+
+input {
+    font-family: 'Fira Sans', sans-serif;
+    width: 125%;
+    height: 8%;
+}
+
+#b-text {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 150%;
+    text-align:center;
+    
+}

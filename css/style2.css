@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    background-color: rgb(164, 237, 237);
+}
+
+.empty{
+    margin:10% 0% 3% 3% ;
+    font-size: 200%;
+    width:90%;
+    padding: 3% 0% 3% 3%;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 10px 10px 0px 5px rgb(61, 57, 57);
+}
+.question,.inst{
+    margin:3% ;
+    font-size: 200%;
+    width:90%;
+    padding: 3% 0% 3% 3%;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 10px 10px 0px 5px rgb(61, 57, 57);
+}
+
+label,b,h2{
+    background-color: rgb(255, 255, 255);
+    display: block;
+    font-size: 100%;
+    
+}
+input[type=radio]{
+    width:5%;
+    height: 20px;
+    accent-color:red;
+}
+label {
+    font-size: 20px;
+}
+nav{
+    overflow: hidden;
+    top:0%;
+    margin-top: 0%;
+    position:fixed;
+    padding: 2%;
+    width: 97%;
+    height:10%;
+    border-bottom: 5px solid black;
+}
+
+nav,h1,ul,li{
+    
+    background-color: rgb(20, 197, 197);
+}
+h1{
+    display:inline-flex;
+    font-size: 200%;
+  }
+time{
+    top: 15%;
+    box-shadow: 5px 5px 0px 2px rgb(61, 57, 57);
+    padding: 0% 2%;
+    border: 1px solid black;
+ left:80%;
+ position:absolute;
+ font-size:300%;
+  color:red;
+
+}
+.submit{
+   position: absolute;
+   box-shadow: 5px 5px 0px 2px rgb(61, 57, 57);
+   left:85%;
+}
+.submit input{
+    font-size:200%;
+    background-color: rgb(126, 121, 237);
+}
+.submit input:hover{
+    background-color: rgb(255, 238, 0);
+}
+ul{
+    float: right;
+}
+ul li{
+    position: relative;
+   margin-right: 20pt;
+    display: inline-flex;
+    list-style: none;
+ }
+ ul li a{
+    background-color: rgb(20, 197, 197);
+     text-decoration: none;
+     font-size: 175%;
+     color: black;
+     padding: 5% 20%;
+     border-radius: 25px;
+ }
+ ol li,ol{
+     background-color: white;
+ }
+ul li a:hover{
+     background-color:rgb(11, 72, 3);
+     color: white;
+ }
+ .opt{
+    margin-top:8%;
+}
+.button {  
+     padding: 2% 10%;
+     margin:2% 2% 3% 5%; 
+     font-size:200%;  
+     text-align: center;  
+     cursor: pointer;   
+     outline: none;   
+     color: #fff;   
+     background-color: #04AA6D;  
+     border: none;   
+     border-radius: 15px;   
+     box-shadow: 0 9px #999; }  
+ .button:hover {background-color: #3e8e41}
+ .button:active {   
+     background-color: #3e8e41;   
+     box-shadow: 0 5px #666;   
+     transform: translateY(4px); }
+ body {font-family: Arial, Helvetica, sans-serif;}
+ h3{
+     font-size:250%;
+ }
